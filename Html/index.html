@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--press enter in vs code-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ehsanul Haque Milon</title>
+    <link rel="icon" href="images/milon durgapur.png">
+
+    <link rel="stylesheet" href="CSS/mpi.css">
+    <link rel="stylesheet" href="CSS/table.css">
+    <style>
+        /*
+        *{
+             "*{}" it's cold universal Selector. 
+            text-align: center;
+        }
+        */
+        body {
+            background-color: lightgray;
+            /*
+            background-image: url('img_girl.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100% or covered;
+            */
+        }
+            
+        #TabBar{
+            list-style-type: none;
+            /*In the "none" section we can also use disc, circle, square*/
+            margin: 0;
+            padding: 0%;
+            overflow: hidden;
+            background-color: rgb(45, 45, 45);
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: black;
+        }
+
+        #html5 {
+            color:blue ;
+            background-color: green;  
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            font-size: 200px;
+            border:2px solid Tomato;
+            box-shadow: 10px 10px 10px red;
+        }
+
+        p {
+            color: none;
+            font-size: large;
+            /*if i can use: border: 1px solid black*/ padding: 10px;
+            margin: 30px;
+        /*p {
+            background-image: url('img_girl.jpg');
+        }*/
+        }
+    </style>
+
+
+</head>
+
+
+<body style="background-color:rgb(170, 163, 163) ;">
+    <ul id="TabBar">
+    <!--ul means unordered list-->
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Sing Up">Sing Up</a></li>
+        <li><a href="#aa2">Contact</a></li>
+        <!--This is a bookmark.click to jump location-->
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    
+    <h1 id="html5" title="All Style also use in paragraph tag.">
+        HTML <span style="color: rgb(255, 0, 0);"> 5</span>
+    </h1>
+
+        <!--<map name="image-map">
+            <area target="_blank" alt="MPI Area" title=" MPI official website"      
+            href="http://www.mpi.edu.bd/"           
+ 
+            coords="461,839,456,886,446,908,439,1043,589,1051,630,1039,729,1036,768,1036,826,1041,925,995,942,925,942,840,830,814,659,814" shape="poly">
+        </map> -->
+        <!--
+        <picture>
+            <source media="(min-width: 650px)" srcset="img_food.jpg">
+            <source media="(min-width: 465px)" srcset="img_car.jpg">
+            <img src="img_girl.jpg" style="width:auto;">
+        </picture>
+        --> 
+    <div id="Mpi">
+
+        <a href="http://www.mpi.edu.bd/" title=" Mymensingh Polytechnic Institute Official Website">
+        <img src="images/MPI LOGO.png.png" alt="MPI" width="80" height="70" style="float:left;border-radius: 50px;">
+        <!--Always specify the width and height of an image. If width and height are not specified,
+        the page will flicker while the image loads.-->
+        </a>
+        
+        <h2 id="aa1"><b> Mymensingh Polytechnic Institute</b></h2>
+            <!--The HTML b element defines <b>bold text</b>, without any extra importance.-->
+        <p> 
+            (Bengali:<strong> <span class="a1"> ময়মনসিংহ পলিটেকনিক ইন্সটিটিউট</span></strong>)
+            <!--The HTML strong element defines <strong>strong text</strong>, with added semantic "strong" importance.-->
+            or <mark>MPI</mark>
+            <!--The HTML mark element defines <mark>marked or highlighted text: -->
+            is a polytechnic institute in 
+            <i> Mymensingh, Bangladesh,</i>
+            <!--The HTML i element defines <i>italic text</i>, without any extra importance.--> 
+            established in <em> 1963.</em>
+            <!--The HTML em element defines <em>emphasized text</em>, with added semantic importance.-->
+            <del> Mymensingh Polytechnic Institute was established in 1963.</del>
+            <!--The HTML del element defines <del>deleted (removed) text.-->  
+            Along with <small> 120</small>
+            <!--The HTML small element defines <small>small text:--> 
+            students in 1<sup>st</sup>
+            <!--The HTML sup element defines<sup> superscripted text.-->
+            year and three departments <u>(civil, electrical, mechanical)</u>
+            <!--Undrerline--> it starts Diploma-in-Engineering program.
+            The institute operates under the executive control of the Ministry of Education <sub> (MOE)</sub>
+            <!--The HTML sub element defines<sub> subscripted text.--> 
+            acting through the Directorate of Technical Education <sub>(DTE)</sub>. The academic programmes, and curricula are maintained under
+            the regulation of the Bangladesh Technical Education Board <sub>(BTEB)</sub>. <ins> BTEB</ins>
+            <!--The HTML ins element defines <ins>inserted (added) text.-->
+            function under Directorate of Inspection and Audit <sub>(DIA)</sub>, which in turn function under Chief Accounts Office <sub> (CAO)</sub>, and it function under 
+            <bdo dir="rtl"> MOE.</bdo>
+            <!--This is a left to right text.--> 
+        </p>
+    </div>
+    <hr>
+
+    <table style="width:100% ;">
+        <caption>3rd Semester Result sheet</caption>
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+            <col span="2" style="background-color: pink">
+            <!--<col span="3">
+                <col span="2" style="background-color: pink">
+            If you want to style columns in the middle of a table, insert a "empty" <col> element (with no styles) for the columns before:-->
+          </colgroup>
+        <tr>
+            <th style="width:10% ;"> Serial NO.</th>
+            <th colspan="2">Name</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>MD Rakibul Hassan</td>
+            <td></td>
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nurjahan Nuri</td>
+            <td rowspan="2"></td>
+            <td>4.00</td>
+        </tr>
+        <tr style="height: 100px; ;">
+            <td>3</td>
+            <td id="t3">Ehsanul Haque Milon</td>
+            
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>MD My Zihad</td>
+            <td></td>
+            <td>4.00</td>
+        </tr>
+
+    </table>
+
+    <!-- <hr>
+    
+    <pre>
+        pre tag means it is <mark>preformatted text</mark>.
+        Its like poem type text.
+        You can write code here.
+        However you write the code it smillerly show in browser.
+    </pre>
+    <code> <var>person</var>= {
+        firstName:"John",
+        lastName:"Doe"
+    }</code> -->
+    <!--var tag define variable-->
+
+    <hr>
+
+    <!--User information-->
+    <h1 id="Sing Up"><bold>Sing Up</bold></h4>
+    <form action="">
+        <input type="text"placeholder="First Name"><br>
+        <input type="text"placeholder="Last Name"><br><br>
+        <input type="text"placeholder="Your Email Addresses"><br>
+        <input type="password"placeholder="Password">
+        <!--Input types: "checkbox","color","date","datetime-local","email","file","hidden","image","month","number","password","radio","range","reset","search","submit","tel","text","time","url","week"-->
+    </form><br>
+
+    
+    <select name="Select your country" id="Select Your Country">
+        <option value="">India</option>
+        <option value="">Bangladesh</option>
+        <option value="">Pakistan</option>
+    </select><br>
+
+    <textarea name="Write something as you like" id="" cols="10" rows="3"placeholder="Write something as you like."></textarea><br><br>
+    <button type="submit">Submit</button>
+    
+    
+
+    <hr>
+
+    <address id="aa2";>
+        <h5>Contract us:01781915066</h5>
+        <a href="mailto:ehasanulhaquemilon@gmail.com"> Send Mail</a><br>
+        <a href="https://www.youtube.com/" target="_self" >Visit My Chanel</a> <br>
+        <!--The target attribute specifies where to open the linked document.
+        _blank	Opens the linked document in a new window or tab
+        _self	Opens the linked document in the same frame as it was clicked (this is default)
+        _parent	Opens the linked document in the parent frame
+        _top	Opens the linked document in the full body of the window
+        frame name	Opens the linked document in the named iframe
+        -->
+        Mymensingh,Shamgonja <br>
+        click here,<br>
+        <button onclick="document.location='https://www.facebook.com/'">My Facebook page</button><br>
+        Copy Right: The HTML 5 crated by <abbr title="Ehsanul Haque Milon">EHM</abbr>.<br>
+    </address>
+
+</body>
+
+</html>
